@@ -28,7 +28,7 @@ Spencer Schurk&October 6, 2018&Lead Author of Business Requirements&1.0\\
 \hline
 Geraldo Macias&October 6, 2018&Lead Author of Scope and Limitations&1.1\\
 \hline
-&&&\\
+Matt Yarmolich&October 7, 2018&Competitive Analysis&1.1\\
 \hline
 &&&\\
 \hline
@@ -47,7 +47,7 @@ Spencer Schurk&October 6, 2018&Initial version of Section 1&1.0\\
 \hline
 Geraldo Macias&October 6, 2018&Initial version of Section 4&1.1\\
 \hline
-&&&\\
+Matt Yarmolich&October 7, 2018&Initial version of Section 6.0&6.1\\
 \hline
 &&&\\
 \hline
@@ -148,10 +148,15 @@ No known business risks at present.
 
 \section{Competitive Analysis}
 \subsection{Overview}
-What is the competition like?  Are there competitors?  How mature are they?  
-\subsection{Competitor 1}
-Describe a leading competitor.  Perhaps give a list of features they provide.  How do they market and price their product?
-\subsection{Competitor n}
-Repeat for as many leading competitors as is appropriate.
+Right now in terms of data classifiers, there are not a ton of viable competitors besides some open source plugins and Impervia, which is a product that specialized in data classification. this product is mature and interfaces with multiple databases such as Oracle, Microsoft SQL, SAP Sybase, IBM DB2 and MySQL.  \subsection{Impervia Data Classifier}
+Impervia appears to be the biggest at market competitor being the first Google search result and seem to have a fair amount of existing marketable customers. Regarding features they are a post database entry classifier meaning you log into your database after logging in and analyze what is currently stored in that database. This differentiates this solution from the solution for MarkLogic as the solution for MarkLogic is meant to serve as a buffer between the input data and the database.  Regarding pricing, Impervia seems to offer the tool for free but then charges for additional use and training for the product. 
+
+
+\subsection{Scikit-learn}
+Another competitor for our solution for MarkLogic is Scikit-learn and TensorFlow. These are open source plugin for Python which allows you to train a MachineLearning model for datasets. In terms of marketing/marketability, since these products are open source, it is available for both commercial and private use for free. This means these product are not a direct competitor to our solution for MarkLogic, and can probably be used in our implementation pending on the desired feature set. 
+
+\subsection{Conclusion}
+In conclusion there are not a ton of commercially viable solutions for MarkLogic that we will be competing with. Most existing solutions require a team of Software Engineers to train the model and build it into a usable tool. 
+
 
 \end{document}
